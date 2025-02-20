@@ -1,0 +1,11 @@
+package org.tpl.chat.service.remote.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import org.springframework.web.multipart.MultipartFile;
+
+@Data
+@AllArgsConstructor
+public class MultiPartFileUploadModel {
+  private MultipartFile file;
+}
